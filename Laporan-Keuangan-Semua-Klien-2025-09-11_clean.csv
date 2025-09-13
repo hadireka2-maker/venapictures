@@ -1,0 +1,12 @@
+ID Transaksi,Tanggal,Deskripsi,Kategori,Tipe,Jumlah
+TRN006,2024-07-05,Biaya langganan Adobe Creative Cloud,Operasional Kantor,Pengeluaran,870000
+TRN007,2024-06-01,Pelunasan Proyek Lamaran Dewi & Rian,Pelunasan Proyek,Pemasukan,5000000
+TRN008,2024-04-15,Pelunasan Proyek Prewedding F&A,Pelunasan Proyek,Pemasukan,6500000
+TRN003,2024-02-20,Gaji Freelancer - Andi P (Budi & Sinta),Gaji Freelancer,Pengeluaran,2000000
+TRN004,2024-02-20,Gaji Freelancer - Citra L (Budi & Sinta),Gaji Freelancer,Pengeluaran,2500000
+TRN002,2024-02-10,Pelunasan Proyek Pernikahan Budi & Sinta,Pelunasan Proyek,Pemasukan,13250000
+TRN001,2024-01-20,DP Proyek Pernikahan Budi & Sinta,DP Proyek,Pemasukan,13250000
+TRN-CLOSE-1757605023862,2025-09-11,Transfer sisa anggaran: Anggaran Operasional Juli 2024,Transfer Internal,Pengeluaran,2000000
+TRN-CLOSE-1757605023859,2025-09-11,Transfer sisa anggaran: Anggaran Operasional Juli 2024,Transfer Internal,Pengeluaran,2000000
+TRN-DP-PRJ1757602180705,2025-09-11,DP Proyek Acara hadi (Paket Pernikahan Silver),DP Proyek,Pemasukan,100000
+TRN005,2024-07-10,DP Proyek Acara Tahunan PT SA,DP Proyek,Pemasukan,4000000
