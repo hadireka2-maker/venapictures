@@ -372,13 +372,12 @@
       input[type="date"]::-webkit-calendar-picker-indicator {
           cursor: pointer;
           opacity: 0.6;
-          filter: invert(var(--dark-mode-filter, 0));
           transition: opacity 0.2s;
           width: 20px;
           height: 20px;
       }
-       html.dark input[type="date"]::-webkit-calendar-picker-indicator {
-           filter: invert(1);
+      html.dark input[type="date"]::-webkit-calendar-picker-indicator {
+          filter: invert(1);
       }
       input[type="date"]::-webkit-calendar-picker-indicator:hover {
           opacity: 1;
@@ -493,7 +492,7 @@
         padding: 0.75rem 1.5rem;
         border-radius: 12px;
         background-color: var(--color-input-bg);
-        color: #475569;
+        color: var(--color-text-primary);
         border: 2px solid var(--color-border);
         transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         cursor: pointer;
@@ -501,25 +500,17 @@
         overflow: hidden;
       }
       
-      html.dark .button-secondary {
-        color: var(--color-text-primary);
-      }
-      
       .button-secondary:hover {
-        color: #1e293b;
-        background-color: #e2e8f0;
+        color: var(--color-text-light);
+        background-color: var(--color-border);
+        border-color: var(--color-text-secondary);
         transform: translateY(-1px);
         box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.1);
       }
       
-       html.dark .button-secondary:hover {
-        color: var(--color-text-light);
-        background-color: #475569;
-      }
-      
       .button-secondary:active {
-        background-color: #cbd5e1;
-        color: #1e293b;
+        background-color: var(--color-border);
+        color: var(--color-text-light);
         transform: translateY(0);
       }
       
@@ -784,13 +775,13 @@
         }
 
         /* Custom print classes (retain if used) */
-        .printable-bg-blue { background-color: #f0f8ff !important; border: 1px solid #e0e0e0 !important; }
-        .printable-text-white { color: #000 !important; }
-        .printable-bg-green-light { background-color: #f0fff4 !important; border: 1px solid #e0e0e0 !important; }
-        .print-text-green { color: #006400 !important; }
-        .print-text-red { color: #b22222 !important; }
-        .print-bg-slate { background-color: #f8f8f8 !important; }
-        .print-text-black { color: #000 !important; }
+        .printable-bg-blue { background-color: var(--color-accent-light) !important; border: 1px solid var(--color-border) !important; }
+        .printable-text-white { color: var(--color-surface) !important; }
+        .printable-bg-green-light { background-color: var(--color-success) !important; }
+        .print-text-green { color: var(--color-success) !important; }
+        .print-text-red { color: var(--color-danger) !important; }
+        .print-bg-slate { background-color: var(--color-input-bg) !important; }
+        .print-text-black { color: var(--color-text-light) !important; }
 
         /* Table Styling for Print: repeat headers, footer groups and avoid breaking rows */
         .printable-area table { width: 100% !important; border-collapse: collapse !important; }
