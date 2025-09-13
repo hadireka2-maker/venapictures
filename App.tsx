@@ -907,7 +907,7 @@ const App: React.FC = () => {
         currentUser={currentUser}
       />
       
-      <div className="flex-1 flex flex-col overflow-hidden">
+      <div className="flex-1 flex flex-col">
         <Header 
             pageTitle={activeView} 
             toggleSidebar={() => setIsSidebarOpen(!isSidebarOpen)}
